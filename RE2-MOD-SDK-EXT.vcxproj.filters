@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{d97d4701-2bc7-47dc-9426-352b93f75e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bio2">
+      <UniqueIdentifier>{607da558-adb8-4ddc-a36f-848ab51796ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{41b9c5d3-0bb7-414e-b641-b0d79778b5e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="System\types.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Bio2\global.h">
+      <Filter>Bio2</Filter>
+    </ClInclude>
+    <ClInclude Include="inject.h" />
+    <ClInclude Include="Bio2\bio2_hook.h">
+      <Filter>Bio2</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\modtest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Bio2\bio2_hook.cpp">
+      <Filter>Bio2</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\modtest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

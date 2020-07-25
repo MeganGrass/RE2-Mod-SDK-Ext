@@ -1,0 +1,4 @@
+[MOD]
+Name = Derp
+Title = Derp
+Module = RE2-MOD-SDK-EXT.dll
